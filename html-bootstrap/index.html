@@ -1,45 +1,82 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Reviews </title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-<link rel="stylesheet" type="text/css" href="css/style.css">
-<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
-<script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <title>Reviews </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
 </head>
 
 <body>
-<div class="header_top">
-<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <div class="header_left">
-    <div class="navbar-header">
-          <a class="navbar-brand" href="#"><img src="images/logo.png" class="logo"></a>
-    </div>
-    </div>
-    <div class="mainmenu header_middle">
+
+  <div class="header_top">
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="header_left">
+            <div class="navbar-header">
+              <a class="navbar-brand" href="#"><img src="images/logo.png" class="logo"></a>
+            </div>
+        </div>
+        <div class="mainmenu header_middle">
+          <a href="#" class="i_head pad_rgt"> <span class="glyphicon glyphicon-edit"></span>
+          <i>Reviews</i></a>
+          <a href="#" class="i_head pad_rgt"><span class="glyphicon glyphicon-globe"></span> 
+           <i>Knows</i></a>
+          <a href="#" class="i_head pad_rgt"><span class="glyphicon glyphicon-calendar">       </span><i>Events</i></a>
+        </div>
+        <div class="mainmenu header_right">
+          <button type="button" class="btn btn-default">
+            <span class="glyphicon glyphicon-plus"></span></button>
+          <button type="button" class="btn btn-default">
+            <span class="glyphicon glyphicon-search"></span></button>
+          <a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a>
+          <a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a>
+        </div>
+    </nav>
+  </div>
+
+  <div class="middle-div">
+
+  <div class="midlle-div sky-mega-menu">
     
-    <a href="#" class="i_head pad_rgt"> <span class="glyphicon glyphicon-edit"></span><i>Reviews</i></a>
-  <a href="#" class="i_head pad_rgt"><span class="glyphicon glyphicon-globe"></span><i>Knows</i></a>
-    <a href="#" class="i_head pad_rgt"><span class="glyphicon glyphicon-calendar"></span><i>Events</i></a>
+    <div class="category">
+       <a href="#">
+            <span class="glyphicon glyphicon-menu-hamburger">
+              
+            </span> By Category
+            
+          <span class="glyphicon glyphicon-chevron-down"></span> 
+          </a>
+    </div>
+
+    <div class="search">
+      <form class="frm">
+      <input type="text" placeholder="Enter your category" class="inpt">
+      <button id="srch" class="btn btn-primary">Search</button>
+      <a class="reset-link" href="#">rest</a>
+      </form>
+    
+    </div>
+    <div class="add-btn">
+    <button id=" " class="btn btn-primary ">
+    <span class="glyphicon glyphicon-plus-sign"></span>
+      <span class="add-new-txt">Add Review</span>
+    </button>
    
     </div>
 
-    
+  </div>
 
-    <div class="mainmenu header_right">
 
-       <button type="button" class="btn btn-default">
-         <span class="glyphicon glyphicon-plus"></span></button>
-        <button type="button" class="btn btn-default">
-          <span class="glyphicon glyphicon-search"></span></button>
-        
-      <a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a>
-      <a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a>
-    </div>
-  </nav>
-</div>
+
+
+
+
+  </div>
+
+
 </body>
 </html> 

@@ -8,6 +8,7 @@ border:1px solid #b3b3ff;
   width:60px;
   margin-top: -13px;
   border-radius: 50%;
+  margin-left: 50px;
 }
 
 .header_left{
@@ -35,4 +36,40 @@ border:1px solid #b3b3ff;
 .header_right{
 float:right;
 padding: 12px 20px; 
+margin-right: 40px
+}
+
+
+.sky-mega-menu{
+
+    width: 1200px;
+    margin-left: 60px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    position: relative; 
+    outline: medium none;
+    z-index: 999;
+    height: 70px;
+
+
+}
+ .category span{
+margin-left: 20px;
+
+margin-top: 20px;
+}
+
+ .category a:hover, .category a:focus{
+color:white;
+background-color: #ff8000;
+}
+.search form{
+  margin-left: 200px;
+ margin-top: -20px; 
+}
+
+
+.add-btn{
+  float: right;
+  margin-top: -40px;
+margin-right: 20px;
 }
