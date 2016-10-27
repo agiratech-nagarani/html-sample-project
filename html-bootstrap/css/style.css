@@ -42,9 +42,7 @@ margin-right: 40px
 
 .sky-mega-menu{
 
-    width: 1200px;
-    margin-left: 60px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+       box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
     position: relative; 
     outline: medium none;
     z-index: 999;
@@ -72,4 +70,37 @@ background-color: #ff8000;
   float: right;
   margin-top: -40px;
 margin-right: 20px;
+}
+
+
+.container .row{
+  margin-top: 20px;
+}
+
+
+ .row1{
+  height: 150px;
+  width: 250px;
+}
+
+.second{
+  height: 170px;
+  width: 250px;
+  background-color: white;
+  border:1px solid #ddd;
+}
+
+.table-bordered{
+  margin-top: 30px ;
+  background-color: #fff;
+}
+.rating{
+  margin-top: 20px;
+  margin-left: 15px;
+}
+.img-circle{
+  height: 60px;
+  width: 60px;
+  margin-top: -20px;
+  margin-left: 7px;
 }
